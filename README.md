@@ -4,9 +4,9 @@ Javascript function to trigger browser to save data to file as if it was downloa
 
 # Installation
 
-    npm install svg-file-download --save
+    npm install svg-file-downloader --save
 
 # Usage
 
-    var fileDownload = require('svg-file-download');
+    var fileDownload = require('svg-file-downloader');
     fileDownload(data, false, 'somefile.svg');
