@@ -1,0 +1,30 @@
+{
+  "name": "svg-file-download",
+  "version": "0.0.1",
+  "description": "Javascript function that triggers browser to save javascript-generated content to an svg file",
+  "main": "svg-file-download.js",
+  "scripts": {
+    "lint": "eslint svg-file-download.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:msurguy/svg-file-download.git"
+  },
+  "keywords": [
+    "javascript",
+    "file",
+    "react",
+    "download"
+  ],
+  "author": "Maks Surguy <msurguy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msurguy/svg-file-download/issues"
+  },
+  "homepage": "https://github.com/msurguy/svg-file-download",
+  "typings": "svg-file-download.d.ts",
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
+}
