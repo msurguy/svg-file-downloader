@@ -9,4 +9,4 @@ Javascript function to trigger browser to save data to file as if it was downloa
 # Usage
 
     var fileDownload = require('svg-file-download');
-    fileDownload(data, 'filename.csv');
+    fileDownload(data, false, 'somefile.svg');
