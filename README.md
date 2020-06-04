@@ -1,4 +1,4 @@
-# Javascript File Download
+# Javascript SVG File Downloader
 
 Javascript function to trigger browser to save SVG to file as if it was downloaded.
 
