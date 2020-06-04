@@ -2,6 +2,7 @@ declare module 'svg-file-downloader' {
   export default function fileDownload(
     data: string | Element,
     trim?: integer,
-    filename?: string
+    filename?: string,
+    removeVueAttrs?: boolean
   ): void;
 }

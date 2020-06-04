@@ -1,4 +1,4 @@
-module.exports = function (data, trim, name) {
+module.exports = function (data, trim, name, removeVueAttrs) {
 
   var svgDoctype = '<?xml version="1.0" standalone="no"?>\n'
   // If data is an element, convert to string
@@ -12,9 +12,11 @@ module.exports = function (data, trim, name) {
   }
 
   // remove Vue's data-v attributes
-  svgString = svgString.replace(/ data-v-([0-9a-z]){8}=""/g, function () {
-    return ''
-  })
+  if (typeof removeVueAttrs !== 'undefined' && removeVueAttrs) {
+    svgString = svgString.replace(/ data-v-([0-9a-z]){8}=""/g, function () {
+      return ''
+    })
+  }
 
   var blob = new Blob([svgDoctype + svgString], { type: 'image/svg+xml;charset=utf-8' })
 

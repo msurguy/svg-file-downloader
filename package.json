@@ -1,6 +1,6 @@
 {
   "name": "svg-file-downloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript function that triggers browser to save javascript-generated content to an svg file",
   "main": "svg-file-downloader.js",
   "scripts": {
